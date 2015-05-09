@@ -1,6 +1,6 @@
 {
   "name": "padle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PArser Description LanguagE",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,13 @@
     "tape": "^4.0.0"
   },
   "dependencies": {
-    "csv-parser-generator": "^1.0.6"
+    "csv-parser-generator": "^1.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/JerrySievert/padle.git"
+   },
+   "bugs": {
+     "url": "http://github.com/JerrySievert/padle/issues"
   }
 }
