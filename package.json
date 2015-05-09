@@ -1,0 +1,24 @@
+{
+  "name": "padle",
+  "version": "1.0.0",
+  "description": "PArser Description LanguagE",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "Jerry Sievert",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jison": "^1.2.0",
+    "gulp-jshint": "^1.10.0",
+    "gulp-shell": "^0.4.1",
+    "istanbul": "^0.3.13",
+    "jison": "^0.4.15",
+    "jshint-stylish": "^1.0.2",
+    "tape": "^4.0.0"
+  },
+  "dependencies": {
+    "csv-parser-generator": "^1.0.6"
+  }
+}
