@@ -10,11 +10,11 @@ function parser (source) {
     rules.delimiter = rules.delimiter || ',';
     var options = { delimiter: rules.delimiter };
 
-    if (options.flags && options.flags.indexOf('strip-whitespace') !== -1) {
+    if (rules.flags && rules.flags.indexOf('strip-whitespace') !== -1) {
       options['strip-whitespace'] = true;
     }
 
-    if (options.flags && options.flags.indexOf('ignore-quotes') !== -1) {
+    if (rules.flags && rules.flags.indexOf('ignore-quotes') !== -1) {
       options['ignore-quotes'] = true;
     }
 
