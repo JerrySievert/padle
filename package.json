@@ -1,6 +1,6 @@
 {
   "name": "padle",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "PArser Description LanguagE",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "tape": "^4.0.0"
   },
   "dependencies": {
-    "csv-parser-generator": "^1.0.8"
+    "csv-parser-generator": "^1.0.11"
   },
   "repository": {
     "type": "git",
