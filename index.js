@@ -8,8 +8,17 @@ function parser (source) {
   // generate a csv parser
   if (rules.type === 'csv') {
     rules.delimiter = rules.delimiter || ',';
+    var options = { delimiter: rules.delimiter };
 
-    this._parser = csv_generator({ delimiter: rules.delimiter });
+    if (options.flags && options.flags.indexOf('strip-whitespace') !== -1) {
+      options['strip-whitespace'] = true;
+    }
+
+    if (options.flags && options.flags.indexOf('ignore-quotes') !== -1) {
+      options['ignore-whitespace'] = true;
+    }
+
+    this._parser = csv_generator(options);
   }
 
   this.rules = rules;
