@@ -15,7 +15,7 @@ function parser (source) {
     }
 
     if (options.flags && options.flags.indexOf('ignore-quotes') !== -1) {
-      options['ignore-whitespace'] = true;
+      options['ignore-quotes'] = true;
     }
 
     this._parser = csv_generator(options);
