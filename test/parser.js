@@ -17,5 +17,5 @@ test('parser correctly parses a line', function (t) {
   t.equal(line.time, '21:25:58');
   t.equal(line.timezone, 'PDT');
   t.equal(line.pid, '[84611-1]');
-  t.equal(line.log, 'LOG: database system was shut down at 2015-04-20 21:25:21 PDT');
+  t.equal(line.log, 'LOG:  database system was shut down at 2015-04-20 21:25:21 PDT');
 });
